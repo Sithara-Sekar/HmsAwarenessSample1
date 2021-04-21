@@ -18,67 +18,17 @@
 
         <TextView
             style="@style/TitleStyle"
-            android:text="@string/awareness_capture_sample" />
-
-        <Button
-            android:id="@+id/capture_getTimeCategories"
-            style="@style/ButtonStyle"
-            android:text="@string/awareness_getTimeCategories" />
-
-        <Button
-            android:id="@+id/capture_getHeadsetStatus"
-            style="@style/ButtonStyle"
-            android:text="@string/awareness_getHeadsetStatus" />
+            android:text="Status Options" />
 
         <Button
             android:id="@+id/capture_getLocation"
             style="@style/ButtonStyle"
-            android:text="@string/awareness_getLocation" />
-
-        <Button
-            android:id="@+id/capture_getBehaviorStatus"
-            style="@style/ButtonStyle"
-            android:text="@string/awareness_getBehaviorStatus" />
-
-        <Button
-            android:id="@+id/capture_getLightIntensity"
-            style="@style/ButtonStyle"
-            android:text="@string/awareness_getAmbientLightIntensity" />
+            android:text="Get location of College" />
 
         <Button
             android:id="@+id/capture_getWeatherStatus"
             style="@style/ButtonStyle"
-            android:text="@string/awareness_getWeatherStatus" />
-
-        <Button
-            android:id="@+id/capture_getBluetoothStatus"
-            style="@style/ButtonStyle"
-            android:text="@string/awareness_getBluetoothStatus" />
-
-        <Button
-            android:id="@+id/capture_getBeaconStatus"
-            style="@style/ButtonStyle"
-            android:text="@string/awareness_getBeaconStatus" />
-
-        <Button
-            android:id="@+id/capture_getWifiStatus"
-            style="@style/ButtonStyle"
-            android:text="@string/awareness_getWifiStatus" />
-
-        <Button
-            android:id="@+id/capture_getScreenStatus"
-            style="@style/ButtonStyle"
-            android:text="@string/awareness_getScreenStatus" />
-
-        <Button
-            android:id="@+id/capture_getDarkModeStatus"
-            style="@style/ButtonStyle"
-            android:text="@string/awareness_getDarkModeStatus" />
-
-        <Button
-            android:id="@+id/capture_getApplicationStatus"
-            style="@style/ButtonStyle"
-            android:text="@string/awareness_getApplicationStatus" />
+            android:text="Get weather status of college" />
 
         <Button
             android:id="@+id/clear_log"

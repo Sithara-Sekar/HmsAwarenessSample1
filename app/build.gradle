@@ -11,24 +11,24 @@ android {
         versionName "2.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    signingConfigs {
-        release {
-            storeFile file('xxxx.jks')
-            keyAlias 'xxxxxx'
-            keyPassword 'xxxxxxx'
-            storePassword 'xxxxxxx'
-            v1SigningEnabled true
-            v2SigningEnabled true
-        }
-    }
+//    signingConfigs {
+//        release {
+//            storeFile file('xxxx.jks')
+//            keyAlias 'xxxxxx'
+//            keyPassword 'xxxxxxx'
+//            storePassword 'xxxxxxx'
+//            v1SigningEnabled true
+//            v2SigningEnabled true
+//        }
+//    }
     buildTypes {
         release {
-            signingConfig signingConfigs.release
+//            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         debug {
-            signingConfig signingConfigs.release
+//            signingConfig signingConfigs.release
             debuggable true
         }
     }

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:awareness:1.0.7.301@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/caches/transforms-2/files-2.1/5f3d8ea0af704df0dc72d03512e3675a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/caches/transforms-2/files-2.1/5f3d8ea0af704df0dc72d03512e3675a/res" />
+      <root url="file://$USER_HOME$/Downloads/caches/transforms-2/files-2.1/5f3d8ea0af704df0dc72d03512e3675a/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/caches/modules-2/files-2.1/com.huawei.hms/awareness/1.0.7.301/da39a3ee5e6b4b0d3255bfef95601890afd80709/awareness-1.0.7.301-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

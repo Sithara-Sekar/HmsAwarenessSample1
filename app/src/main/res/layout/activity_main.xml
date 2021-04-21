@@ -13,21 +13,15 @@
 
     <TextView
         style="@style/TitleStyle"
-        android:text="@string/sample_awareness_description"
-        />
+        android:text="College Location and Weather status" />
+
     <Button
         android:id="@+id/awareness_capture"
+        style="@style/ButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/ButtonStyle"
-        android:text="@string/awareness_capture_sample"
-        />
-    <Button
-        android:id="@+id/awareness_barrier"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/ButtonStyle"
-        android:text="@string/awareness_barrier_sample"/>
+        android:text="Click here to get status!!" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">

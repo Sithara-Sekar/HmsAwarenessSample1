@@ -32,7 +32,6 @@ import androidx.core.app.ActivityCompat;
 
 import com.huawei.hmf.tasks.OnFailureListener;
 import com.huawei.hmf.tasks.OnSuccessListener;
-import com.huawei.hms.awareness.codelab.awareness.BarrierActivity;
 import com.huawei.hms.awareness.codelab.awareness.CaptureActivity;
 import com.huawei.hms.awareness.codelab.logger.LogView;
 import com.huawei.hms.kit.awareness.Awareness;
@@ -58,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.awareness_capture).setOnClickListener(this);
-        findViewById(R.id.awareness_barrier).setOnClickListener(this);
+//        findViewById(R.id.awareness_barrier).setOnClickListener(this);
         mLogView = findViewById(R.id.logView);
         queryDeviceSupportingCapabilities();
         checkAndRequestPermissions();
@@ -121,10 +120,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.awareness_capture:
                 Intent snapshotIntent = new Intent(this, CaptureActivity.class);
                 startActivity(snapshotIntent);
-                break;
-            case R.id.awareness_barrier:
-                Intent barrierIntent = new Intent(this, BarrierActivity.class);
-                startActivity(barrierIntent);
                 break;
             default:
                 break;
